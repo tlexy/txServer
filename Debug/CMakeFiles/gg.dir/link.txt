@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/gg.dir/main/GameServer.cpp.o CMakeFiles/gg.dir/main/main.cpp.o CMakeFiles/gg.dir/core/io_base.cpp.o CMakeFiles/gg.dir/core/protocol_buffer.cpp.o CMakeFiles/gg.dir/core/packet_base.cpp.o CMakeFiles/gg.dir/core/protocol_raw.cpp.o CMakeFiles/gg.dir/core/protocol_base.cpp.o  -o gg -rdynamic -lpthread 

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{b964c68b-f068-40e6-b40a-ada95e5df4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{1b306ecc-67a9-4709-95a6-5da92f08b312}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="io_base.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="packet_base.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol_base.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol_raw.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="protocol_buffer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="io_base.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_base.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_base.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_raw.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_buffer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblibmuduo_base.a.a  CMakeFiles/libmuduo_base.a.dir/main/GameServer.cpp.o CMakeFiles/libmuduo_base.a.dir/main/main.cpp.o CMakeFiles/libmuduo_base.a.dir/core/io_base.cpp.o CMakeFiles/libmuduo_base.a.dir/core/protocol_buffer.cpp.o CMakeFiles/libmuduo_base.a.dir/core/packet_base.cpp.o CMakeFiles/libmuduo_base.a.dir/core/protocol_raw.cpp.o CMakeFiles/libmuduo_base.a.dir/core/protocol_base.cpp.o
+/usr/bin/ranlib liblibmuduo_base.a.a
